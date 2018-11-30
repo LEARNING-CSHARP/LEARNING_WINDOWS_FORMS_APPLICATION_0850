@@ -3,13 +3,17 @@
 	/// <summary>
 	/// Startup Class
 	/// </summary>
-	static class Program
+	internal static class Program
 	{
+		static Program()
+		{
+		}
+
 		/// <summary>
 		/// Startup Function
 		/// </summary>
 		[System.STAThread]
-		static void Main()
+		internal static void Main()
 		{
 			// **************************************************
 			System.Windows.Forms.Application.EnableVisualStyles();

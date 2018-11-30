@@ -29,6 +29,8 @@
 			// 
 			// firstNameTextBox
 			// 
+			this.firstNameTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
 			this.firstNameTextBox.Location = new System.Drawing.Point(12, 12);
 			this.firstNameTextBox.Name = "firstNameTextBox";
 			this.firstNameTextBox.Size = new System.Drawing.Size(355, 23);
@@ -38,6 +40,8 @@
 			// 
 			// lastNameTextBox
 			// 
+			this.lastNameTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
 			this.lastNameTextBox.Location = new System.Drawing.Point(12, 41);
 			this.lastNameTextBox.MaxLength = 30;
 			this.lastNameTextBox.Name = "lastNameTextBox";
@@ -52,6 +56,7 @@
 			this.saveButton.TabIndex = 2;
 			this.saveButton.Text = "&Save";
 			this.saveButton.UseVisualStyleBackColor = true;
+			this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
 			// 
 			// MainForm
 			// 
