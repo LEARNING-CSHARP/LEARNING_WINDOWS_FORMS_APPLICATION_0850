@@ -35,8 +35,8 @@
 			this.firstNameTextBox.Name = "firstNameTextBox";
 			this.firstNameTextBox.Size = new System.Drawing.Size(355, 23);
 			this.firstNameTextBox.TabIndex = 0;
-			this.firstNameTextBox.Leave += new System.EventHandler(this.firstNameTextBox_Leave);
-			this.firstNameTextBox.Validating += new System.ComponentModel.CancelEventHandler(this.firstNameTextBox_Validating);
+			this.firstNameTextBox.Leave += new System.EventHandler(this.FirstNameTextBox_Leave);
+			this.firstNameTextBox.Validating += new System.ComponentModel.CancelEventHandler(this.FirstNameTextBox_Validating);
 			// 
 			// lastNameTextBox
 			// 

@@ -11,7 +11,7 @@
 		{
 		}
 
-		private void firstNameTextBox_Leave(object sender, System.EventArgs e)
+		private void FirstNameTextBox_Leave(object sender, System.EventArgs e)
 		{
 			//if (firstNameTextBox.Text.Length > 20)
 			//{
@@ -22,7 +22,7 @@
 			//}
 		}
 
-		private void firstNameTextBox_Validating(object sender, System.ComponentModel.CancelEventArgs e)
+		private void FirstNameTextBox_Validating(object sender, System.ComponentModel.CancelEventArgs e)
 		{
 			if (firstNameTextBox.Text.Length > 20)
 			{
